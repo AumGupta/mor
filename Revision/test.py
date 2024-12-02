@@ -36,3 +36,13 @@
 #     print(e)
 # except:
 #     print("U")
+
+class underAge(Exception):
+    def __init__(self, *args):
+        super().__init__(*args)
+        self.msg = "Error"
+
+try:
+    raise underAge("Under Age")
+except underAge as e:
+    print(e)

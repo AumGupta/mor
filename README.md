@@ -1,3 +1,3 @@
-# Pyplayground
+# MOR
 
-Companion repo for python codes.
+Companion repo for Master of Operational Research.

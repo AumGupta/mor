@@ -37,12 +37,18 @@
 # except:
 #     print("U")
 
-class underAge(Exception):
-    def __init__(self, *args):
-        super().__init__(*args)
-        self.msg = "Error"
+# class underAge(Exception):
+#     def __init__(self, *args):
+#         super().__init__(*args)
+#         self.msg = "Error"
 
-try:
-    raise underAge("Under Age")
-except underAge as e:
-    print(e)
+# try:
+#     raise underAge("Under Age")
+# except underAge as e:
+#     print(e)
+
+d = {'f':1,'b':2}
+print(d)
+
+d = dict(sorted(d.items()))
+print(d)

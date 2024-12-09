@@ -1,3 +1,3 @@
-# MOR
+# MOR-Python
 
-Companion repo for Master of Operational Research.
+Companion repo for Python Programming course of Master of Operational Research, University of Delhi.
